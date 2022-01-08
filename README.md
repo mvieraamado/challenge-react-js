@@ -1,4 +1,24 @@
-# Getting Started with Create React App
+# Challenge Alkemy (React JS)
+
+## Objetivo
+Desarrollar una aplicación para crear un equipo de superhéroes que consumirá una API externa.
+
+## Secciones de la app
+Login \
+Home \
+Search 
+
+## Instalaciones
+Axios \
+Formik \
+React-Bootstrap \
+react-router-dom \
+Yup
+
+## ¡Importante! CORS
+Para evitar inconvenientes con CORS, una alternativa es utilizar Moesif origins && CORS changer (extension de Chrome).
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
