@@ -1,26 +1,21 @@
-import { Container, Nav, Navbar} from "react-bootstrap";
+import { Nav, Navbar} from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 const MyNavBar = ()=>{
-    const logout = ()=>{
-        localStorage.removeItem('token');
-    }
     return(
     <>
-    <Navbar bg="light" expand="lg">
-        <Container>
-            <Navbar.Brand href="#home" className="pt-1 fw-bold text-info">Superhero-Alkemy</Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-                <NavLink to="/" className="nav-link pt-2">Home</NavLink>
-                <NavLink to="/search" className="nav-link pt-2">Search</NavLink>
-                <NavLink to={'/login'} onClick={()=>logout()} className="nav-link pt-2 text-decoration-none">Log out</NavLink>
-            </Nav>
-            </Navbar.Collapse>
-        </Container>
+    <Navbar bg="light" expand="lg" className="px-3">
+        <Navbar.Brand href="/" className="fw-bold text-secondary">SUPERHERO</Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav"  className="justify-content-lg-end">
+        <Nav>
+            <NavLink to="/" className="nav-link">Search</NavLink>
+            <NavLink to="/my-heroes" className="nav-link text-dark">My heroes</NavLink>
+        </Nav>
+        </Navbar.Collapse>
     </Navbar>
     </>
     )
 };
+
 export default MyNavBar;

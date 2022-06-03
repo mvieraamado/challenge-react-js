@@ -1,10 +1,10 @@
 /*CARD STYLE*/
 .flip-card {
-    background-color: transparent;
-    height: 350px; /* It is necessary to set a height to appear on the page. */
-    border: 0px;
-    perspective: 3000px; /* Generates 3D effect */
-  }
+  background-color: transparent;
+  height: 450px; /* It is necessary to set a height to appear on the page. */
+  border: 0px;
+  perspective: 3000px; /* Generates 3D effect */
+}
   
 /* This container positions the two sides of the card */
 .flip-card-inner {
@@ -40,6 +40,7 @@
   
 /* Specific structure of the posterior face */
 .flip-card-back {
+  padding: 20px;
   background-color: #f5f5f5;
   color: #111111;
   transform: rotateY(180deg);

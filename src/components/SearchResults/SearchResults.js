@@ -22,7 +22,7 @@ const SearchResults = ({ dataResponse }) => {
     {isLoading
       ? dataResponse.results.map((result) => {
           return (
-            <Col key={result.id} md={6} lg={3} className='m-2'>
+            <Col key={result.id} className='m-2 d-flex justify-content-center'>
               <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={result && result.image.url} alt={result && result.name}/>
                 <Card.Body>

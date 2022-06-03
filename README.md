@@ -4,7 +4,6 @@
 Desarrollar una aplicación para crear un equipo de superhéroes que consumirá una API externa.
 
 ## Secciones de la app
-Login \
 Home \
 Search 
 

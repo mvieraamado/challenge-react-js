@@ -1,28 +1,32 @@
 .bgSearch{
+    padding-top: 20px;
     width: 100%;
     min-height: 100vh;
     max-width: 100%;
-    background: #a9e4f7;
-    background: -moz-linear-gradient(45deg,  #a9e4f7 0%, #0fb4e7 100%); 
-    background: -webkit-linear-gradient(45deg,  #a9e4f7 0%,#0fb4e7 100%); 
-    background: linear-gradient(45deg,  #a9e4f7 0%,#0fb4e7 100%);
+    background-color: #121010;
+}
+.searchContainer{
+    margin: auto;
+    max-width: 1200px;
 }
 h1{
-    font-size: 2.5rem;
-    color: white;
+    font-size: 1rem;
+    color: #ede9fa;
     text-align: center;
     text-transform: uppercase;
 }
 p{
+    max-width: 1200px;
+    max-width: 1200px;
     font-size: 1rem;
-    color: white;
+    color: gray;
     text-align: center;
 }
 
 @media all and (max-width: 1080px){
     h1{
         padding-top: 15px;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
     p{
         font-size: 0.7rem;
